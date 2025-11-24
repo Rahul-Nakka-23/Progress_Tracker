@@ -1,0 +1,7 @@
+{
+  "name": "Hustle - Progress Tracker",
+  "description": "A comprehensive progress tracker for calorie intake, water hydration, and daily finances.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
