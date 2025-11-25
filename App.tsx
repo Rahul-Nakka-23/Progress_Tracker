@@ -8,7 +8,6 @@ import { AppTab } from './types';
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<AppTab>(AppTab.FOOD);
   const [installPrompt, setInstallPrompt] = useState<any>(null);
-
   const [isDarkMode, setIsDarkMode] = useState(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('lifebalance_theme');
